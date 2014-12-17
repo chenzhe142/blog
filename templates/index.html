@@ -65,7 +65,9 @@
 				<div class="blog-subject">{{ blog.subject }}</div>
 				<hr>
 				<div class="created-time">{{ blog.created }}</div>
-				<pre class="blog-body">{{ blog.blog }}</pre>
+				<pre class="blog-body" style="background-color: #ddd; color: #888; margin: 0; height: 50px">
+					{{ blog.blog }}
+				</pre>
 			</div>
 		{% endfor %}
 	</form>

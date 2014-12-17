@@ -32,7 +32,10 @@ class MainPage(Handler):
 		self.render("index.html", subject=subject, blog=blog, error=error, blogs=blogs)
 
 	def get(self):
+		#handle html content
 		self.render_index();
+
+
 
 
 class PostPage(Handler):
@@ -64,9 +67,15 @@ class Permalink(MainPage):
 
 
 
+
+
 application = webapp2.WSGIApplication([('/', MainPage), 
 									   ('/newpost', PostPage), 
-									   ('/blog/(\d+)', Permalink)], 
+									   ('/blog/(\d+)', Permalink),
+									   ('/signup', 'handlers.signup.signup.Signup'),
+									   ('/welcome', 'handlers.signup.signup.Welcome'),
+									   ('/login', 'handlers.login.login.Login'),
+									   ('/logout', 'handlers.logout.logout.Logout')], 
 									   debug=True)
 
 
