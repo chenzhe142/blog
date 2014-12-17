@@ -3,6 +3,21 @@ blog
 
 A blog sample, written in Python, based on Google App Engine
 
+Here's a sample website of this templates:
+http://taste-your-recipe-test.appspot.com/
+*Some of the functions are still testing.
+
+Available functions:
+- signup
+  - /signup
+- login
+  - /login 
+- logout
+  - /logout 
+- post blog
+  - /newpost
+- add and remove cookie 
+
 app.yaml
 - This file is used by Google App Engine to recognize which file is the main Python file to handle.
   In my code, blog.py is this file.
