@@ -25,3 +25,6 @@ app.yaml
 templates
 - In this directory, there are several html files. These files are used by 'blog.py', functioning as a template of website.
   These templates are handled by Jinja2.
+
+2014.12.23
+- Begin writing blog api on Google Endpoint or Flask RESTful.
