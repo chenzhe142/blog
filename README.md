@@ -11,6 +11,8 @@ Here's a sample website of this templates:
 http://taste-your-recipe-test.appspot.com/
 - *Some of the functions are still testing.
 
+=====
+
 Available functions:
 - signup
   - /signup
