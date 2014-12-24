@@ -4,7 +4,7 @@ Update:
 - What's new: 2014.12.23
   - Begin writing blog api on Google Endpoint or Flask RESTful.
 
-
+====
 A blog sample, written in Python, based on Google App Engine
 
 Here's a sample website of this templates:
