@@ -1,5 +1,9 @@
 blog
 ====
+Update:
+- What's new: 2014.12.23
+  - Begin writing blog api on Google Endpoint or Flask RESTful.
+
 
 A blog sample, written in Python, based on Google App Engine
 
@@ -29,5 +33,4 @@ templates
 
 
 
-2014.12.23
-- Begin writing blog api on Google Endpoint or Flask RESTful.
+
